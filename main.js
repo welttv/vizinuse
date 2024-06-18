@@ -9,7 +9,7 @@ new Vue({
     },
     methods: {
         fetchData() {
-            fetch('http://localhost:3000/check-artist-free')
+            fetch('http://VIZWEBT1AV:3000/check-artist-free')
                 .then(response => response.json())
                 .then(data => {
                     this.results = data.results;
