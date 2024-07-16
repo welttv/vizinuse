@@ -56,7 +56,7 @@ foreach ($hostnames as $hostname) {
     $artist_free = true;
     foreach ($renderer_data as $item) {
         if (($item['Scene'] !== "00000000-0000-0000-0000-000000000000") 
-        && ($item['Scene'] !== "FBD66DA8-D952-A840-BFFF240FFAAC7AD8")) {
+        && ($item['Scene'] !== "FBD66DA8-D952-A840-BFFF-240FFAAC7AD8")) {
             $artist_free = false;
             break;
         }
